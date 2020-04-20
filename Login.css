@@ -1,0 +1,191 @@
+body
+{
+margin:0px;
+padding:0px;
+background-position: center;
+font-family:sans-serif;
+
+}
+
+.login
+{
+height:420px;
+width:420px;
+background: #000;
+background-repeat: no-repeat;
+background-size: 4px 430px;
+color:#fff;
+top:20%;
+left:35%;
+position:absolute;
+border-radius:15%;
+box-sizing:border box;
+border-width: 3px;
+border-color: red;
+opacity: 0.5;
+}
+
+.login:hover
+{
+	box-shadow: 0 0 200px #fff;
+	opacity: 1.0;  
+}
+
+.man1
+{
+  width:70px;
+height:70px;
+border-radius:50%;
+position:absolute;
+top:-3px;
+left:calc(53% - 50px);
+border-style: solid;
+border-width: 3px;
+border-color: #000;	
+}
+
+
+h1
+{
+text-align:center;
+font-size:18px;
+color: #fff;
+margin:50px;
+padding:0 10 20px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1; 
+}
+.login input[type=text]:hover{
+  width: 300px;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+.login input[type=password]:hover
+{
+	width: 300px;
+    transition: ease-in-out, width .35s ease-in-out;
+}
+.login p
+{
+margin:0;
+padding:0;
+margin-top:30px;
+font-weight:bold;
+
+}
+.login input
+{
+width:250px;
+margin-left:85px;
+margin-bottom:20px;
+}
+.login input[type="text"],input[type="password"]
+{
+border:none;
+border-bottom: 1px solid #fff;
+background:transparent;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+margin:10px;
+}
+
+.login input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:#fb2525;
+color:#fff;
+font-size:18px;
+border-radius:20px;
+}
+.login input[type="submit"]:hover
+{
+cursor:pointer;
+background: #ffc107;
+color:#000;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#000;
+  background-size: cover;
+}
+
+.bg-img
+{
+  height: 565px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img
+{
+  background-image:url("cyan_magenta__wallpaper_sketch__by_sandwichhorsearchive_d6pjrnz.png");
+}
+
+.topnav 
+{
+  height: 50px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a 
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.topnav a:hover 
+{
+  background-color: #ddd;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: black;
+}
+
+.img2
+{
+  width:50px;
+height:50px;
+border-radius:50%;
+position:absolute;
+top:0px;
+left:calc(94% - 50px);
+
+}
+
+.img2:hover
+{
+  box-sizing:border box;
+  box-shadow: 0 0 100px #fff;
+}
+/* The Modal (background) */
